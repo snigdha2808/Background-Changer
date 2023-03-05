@@ -1,0 +1,61 @@
+/*span is by default inline..
+so it does not take height and width
+thus use inline block as display in btn class*/
+
+body{
+  margin:0;
+  padding:19px 100px;
+}
+h1{
+  text-align: center;
+  text-decoration: underline;
+}
+img{
+  width: 100%;
+  height: auto;
+  margin:0 auto;
+}
+p{
+  font-size: 18px;
+  text-align:justify;
+}
+.about{
+  text-align: center;
+}
+.color{
+
+    width : 20px;
+    height : 20px;
+    border-radius : 50%;
+    background : #c64c26;
+    margin : 8px;
+    float:right;
+    display : inline-block;
+    bottom : 15px;
+    transition : 2s;
+    box-shadow : 2px 2px 2px black;
+
+}
+.skyblue{
+    background : skyblue;
+}
+.White{
+    background : White;
+}
+.black{
+    background : black;
+}
+.lightyellow{
+    background : lightyellow;
+}
+.crimson{
+  background-color: crimson;
+}
+/*#color-changer{
+  display: flex;
+  height:50px;
+  background-color: lightpink;
+  flex-direction: row-reverse;
+  margin-top: 30px;
+  margin-right: 300px;
+}*/
